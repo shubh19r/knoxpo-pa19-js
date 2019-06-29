@@ -1,0 +1,16 @@
+<table class="table" align="center"> 
+<div class="Days" style="display: inline-flex; "> 
+	<tr *ngFor="let day of arrayDay" style="display: inline-flex; ">
+		<td>{{day}}</td> 
+	</tr> 
+</div>
+
+  <tbody >
+  	<div class="temperature" >
+      <tr *ngFor="let temp of arraytemp">
+          <td >{{temp}} </td>
+      </tr>
+  </div>
+  </tbody>
+</table>
+
